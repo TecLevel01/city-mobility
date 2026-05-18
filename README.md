@@ -31,7 +31,8 @@ For example in my case, space in folder name: C:\Users\Admin\Documents\Data Mana
 	
 If the path of these folders is changed, please make sure to also change the path in the spark_graph.py file, under the lines of code that create spark session.
 You will see on the top of the source code:
-# SPARK SESSION
+
+#SPARK SESSION
 #GRAPHFRAMES
 .config(
       "spark.jars",
