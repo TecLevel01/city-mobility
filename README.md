@@ -6,16 +6,24 @@ Data Management Project in PostgreSQL, MongoDB and Neo4j using Python and PySpar
 
 PostgreSQL:
 	- create a database called "project". 
+	
 	- Find the script called "coing.py" in the project folder and input your database credentials(user, port, host, password)
+	
 MongoDB:
+
 	- create a connection (you can name it "project") and make sure your database name is "cityMobility"
 	- open the script "config_mongo.py" and make sure your mongo client host correspond to the one of your database you have just created (cityMobility).
+	
 Neo4j:
+
 	- Open Neo4j on your computer and create an instance of your choice (preferably "project").
-	- Open the script called "load_neo4j.py" and make sure the credentials uri, user (most cases the user is "neo4j") and password are correct for your created database.
+	
+	- Open the script called "load_neo4j.py" and make sure the credentials uri, user (most cases the user is "neo4j") and password are correct for your created          database.
 
 Spark deployment:
-	- Find two folders one called "spark-jars" and another called "tmp" in the project folder, Copy these two folders and paste them in your C: driver (C:\spark-jars and C:\tmp)
+
+	- Find two folders one called "spark-jars" and another called "tmp" in the project folder, Copy these two folders and paste them in your C: driver
+	(C:\spark-jars and C:\tmp)
 
 The main reason for creating these two folders there was practicality and compatibility with Spark on Windows. Spark requires the GraphFrames JAR file to be loaded through a 	filesystem path. On Windows, using a short and simple path such as: C:\spark-jars\
 This helps avoid common issues related to: spaces in folder names, permission restrictions, path escaping problems, Hadoop/Spark filesystem parsing errors.
@@ -46,16 +54,27 @@ You will see on the top of the source code:
 	7. spark files(spark_q2mongo.py and spark_graph.py): run these files on your terminal to see you query spark-based implementation and scalability analysis were done using spark.
 
 
+
 3. Commands for installing libraries used:
+   
 pip install pandas
+
 pip install faker
+
 pip install pymongo
+
 pip install neo4j
+
 pip install pyspark
+
 pip install graphframes
+
 pip install matplotlib
+
 pip install psycopg2-binary
+
 Java JDK 17
+
 Hadoop winutils.exe
 	
 
