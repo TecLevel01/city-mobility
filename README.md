@@ -18,7 +18,7 @@ Neo4j:
 
 	- Open Neo4j on your computer and create an instance of your choice (preferably "project").
 	
-	- Open the script called "load_neo4j.py" and make sure the credentials uri, user (most cases the user is "neo4j") and password are correct for your created          database.
+	- Open the script called "load_neo4j.py" and make sure the credentials uri, user (most cases the user is "neo4j") and password are correct for your created database.
 
 Spark deployment:
 
