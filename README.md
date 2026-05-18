@@ -33,7 +33,9 @@ If the path of these folders is changed, please make sure to also change the pat
 You will see on the top of the source code:
 
 #SPARK SESSION
+
 #GRAPHFRAMES
+
 .config(
       "spark.jars",
       "file:///C:/spark-jars/graphframes-0.8.3-spark3.5-s_2.12.jar,"
